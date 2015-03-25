@@ -23,6 +23,7 @@ int main()
 	int sum=0;
 
 	std::cout << "!!!Hello World!!!" << endl;
+	srand(clock());//init rand
 
 	while(true)
 	{
