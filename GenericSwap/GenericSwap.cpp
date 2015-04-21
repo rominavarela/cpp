@@ -21,9 +21,9 @@ inline void myswap(T& a, T& b)
 int main() {
 	int a,b;
 
-	std::cout << "enter a:" << endl;
+	std::cout << "enter a (integer):" << endl;
 	std::cin >> a;
-	std::cout << "enter b:" << endl;
+	std::cout << "enter b (integer):" << endl;
 	std::cin >> b;
 
 	myswap(a,b);

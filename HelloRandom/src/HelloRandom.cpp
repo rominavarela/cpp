@@ -27,7 +27,7 @@ int main()
 
 	while(true)
 	{
-		std::cout << "Let's drop a dice..." << endl;
+		std::cout << "Let's drop a dice... (enter number of drops)" << endl;
 		std::cin >> NDICES;
 
 		if(NDICES <= 0)
